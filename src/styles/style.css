@@ -41,6 +41,7 @@
   margin-right: 0.5rem;
   cursor: pointer;
 }
+
 .filter-checkboxes label:has(input[type="checkbox"]:checked) {
   background: #81d9c1;
   border: 0.1rem solid #c07dcc;
@@ -205,4 +206,3 @@
   color: #333;
   font-weight: 500;
 }
-

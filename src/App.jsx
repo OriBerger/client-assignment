@@ -1,11 +1,10 @@
-import './App.css';
-import DataTable from './components/DataTable';
-import { generateTableData } from './utils/dataGenerator';
+import "./App.css";
+import DataTable from "./components/DataTable";
+import { generateTableData } from "./utils/dataGenerator";
 
 function App() {
-
   const tableData = generateTableData(10000);
-  
+
   return (
     <div className="app">
       <header className="app-header">
